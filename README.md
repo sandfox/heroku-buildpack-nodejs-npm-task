@@ -28,9 +28,10 @@ this would result with the command `npm run build-assets` being executed
 
 It's great for running build tasks and asset compilation that needs doing before running in production. Think architecture/platform specific stuff and images/css/blah
 
-> Why not just do that as part of npm install
+> Why not just do that as part of npm install or post-install hook
 
-It's not the worst solution, but it's clunky and you probably don't want to tie dependency installation to asset compilation/etc.
+ohh emm gee I 💀at the bash-script/npm/env-var gymnastics that seems to be common in nodejs projects just to make deployment work on heroku. Untold magic, sadness and debugging lies on that path.
+Ok, seriously, it's not the worst solution, but it's clunky and you probably don't want to tie dependency installation to asset compilation/etc.
 
 > Why not just add those assets to git / source control
 
